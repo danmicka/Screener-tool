@@ -1,8 +1,8 @@
 import './App.css';
 import Table from './Table';
 import Graph from './Graph';
-import { COLUMNS, rows_data } from './components/column';
-import { useEffect, useState, useRef } from 'react';
+import { COLUMNS } from './components/column';
+import { useEffect, useState } from 'react';
 import { getTableData } from './components/services';
 
 function App() {

@@ -15,14 +15,12 @@ function Table({
   getColumnProps = defaultPropGetter,
   getRowProps = defaultPropGetter,
   getCellProps = defaultPropGetter,
-  getTdProps = defaultPropGetter,
+  // getTdProps = defaultPropGetter,
 }) {
   const {
     getTableProps,
     getTableBodyProps,
-    getProps,
     headerGroups,
-    rows,
     prepareRow,
     page,
     canPreviousPage,
